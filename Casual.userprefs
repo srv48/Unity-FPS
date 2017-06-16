@@ -2,9 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MouseLook.cs">
     <Files>
-      <File FileName="Assets\Scripts\MouseLook.cs" Line="31" Column="4" />
-      <File FileName="..\Roller\Assets\Scripts\PlayerControl.cs" Line="14" Column="34" />
-      <File FileName="..\Roller\Assets\Scripts\CameraControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MouseLook.cs" Line="51" Column="47" />
+      <File FileName="..\Roller\Assets\Scripts\PlayerControl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
