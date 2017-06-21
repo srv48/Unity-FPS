@@ -23,7 +23,8 @@ public class KeyboardControls : MonoBehaviour {
 		Vector3 movement = new Vector3 (-horizontal, 0, -vertical);
 
 		movement = Vector3.ClampMagnitude (movement, speed);
-
+        MouseLook obj = new MouseLook();
+        movement = transform.rotation * movement;
 		movement *= Time.deltaTime;
 		movement.y = gravity;
 		//movement = transform.TransformDirection (movement);
