@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{925FDC02-E4FE-887C-84ED-7A738AEF6AB1}</ProjectGuid>
+    <ProjectGuid>{A3B21254-D917-0AC0-1B7D-F2E86629F28F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,7 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\KeyboardControls.cs" />
+     <Compile Include="Assets\Scripts\Crouch.cs" />
+     <Compile Include="Assets\Scripts\Keyboard_Mouse_Controls.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
