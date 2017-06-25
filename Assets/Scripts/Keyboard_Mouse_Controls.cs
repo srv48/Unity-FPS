@@ -41,22 +41,17 @@ public class Keyboard_Mouse_Controls : MonoBehaviour {
 		movement = new Vector3 (-horizontal, 0f, -vertical);
 
 		movement = Vector3.ClampMagnitude (movement, speed);
-        //MouseLook obj = new MouseLook();
         movement = transform.rotation * movement;							//keyboard movement ends
 
 
 
 
 
-		//float crouch = cc.transform.position.y;
 		if (Input.GetKey (KeyCode.LeftControl)) {									//crouch code begins
 			cc.height = -5f;
-			//cc.transform.position = new Vector3 (cc.transform.position.x, cc.transform.position.y - 1.5f, cc.transform.position.z);
-			//crouch = cc.transform.position.y + 1.5f;
 		}
 		else
 			cc.height = 6f;												//crouch code ends
-			//cc.transform.position = new Vector3(cc.transform.position.x, crouch , cc.transform.position.z);
 		
 
 
